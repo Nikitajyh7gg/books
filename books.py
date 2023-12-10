@@ -10,3 +10,5 @@ for item in soup.find_all('article', class_='product_pod'):
     price= item.find('p', class_='price_color').text[1:]
     raiting=item.p['class'][-1]
     print(title, price,  f'Raiting:{raiting}', sep='\n', end='\n\n')
+#832628brhsusgwvd
+#Nikitajyh7gg
